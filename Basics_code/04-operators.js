@@ -63,3 +63,31 @@ console.log(undefined === null)
 
 // Truthy valores (valores verdaderos)
 
+// Todos los numeros positivos y negativos menos el cero
+// Todas las cadenas de texto menos las vacias
+// Todos los boolean 
+
+
+// Falsy values (valores falsos)
+
+// 0 
+// 0n
+// NaN (not a number)
+// boolean (false)
+// Cadenas de texto vacias
+
+// Operadores Logicos 
+console.log('Operadores Logicos')
+
+// and (&&)
+console.log(5 > 18 && 15 > 20)
+console.log(5 < 10 && 15 < 20)
+console.log(5 < 10 && 15 > 20)
+console.log(5 > 10 && 15 > 20 && 30 > 40)
+
+// or (||)
+console.log(5 > 18 || 15 > 20)
+console.log(5 < 10 || 15 < 20)
+console.log(5 < 10 || 15 > 20)
+
+console.log(5 > 10 && 15 > 20 || 30 < 40)
