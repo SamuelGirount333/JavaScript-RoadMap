@@ -80,14 +80,25 @@ console.log(undefined === null)
 console.log('Operadores Logicos')
 
 // and (&&)
-console.log(5 > 18 && 15 > 20)
+console.log(5 > 15 && 15 > 20)
 console.log(5 < 10 && 15 < 20)
 console.log(5 < 10 && 15 > 20)
 console.log(5 > 10 && 15 > 20 && 30 > 40)
 
 // or (||)
-console.log(5 > 18 || 15 > 20)
+console.log(5 > 15 || 15 > 20)
 console.log(5 < 10 || 15 < 20)
 console.log(5 < 10 || 15 > 20)
-
 console.log(5 > 10 && 15 > 20 || 30 < 40)
+
+
+// not (!)
+console.log('Operador not (!)')
+console.log(!(5 > 18 && 15 > 20))
+console.log(!(5 > 10 || 15 > 20))
+
+// Operadores ternarios 
+console.log('Operadores tenarios')
+
+const isRaining = false
+isRaining ? console.log('Esta lloviendo') : console.log('No esta lloviendo')
