@@ -75,7 +75,10 @@ const number2 = 5
 console.log('5 es mayor que 10:',!(number1 == number2))
 
 let number = 5
+let numberTwo = 15
 console.log('5 es menor o igual que 5:', number < 5 || number == 5)
+console.log('5 es menor y 15 es mayor que 5:', number < 5 && numberTwo > 5)
+
 
 let number3 = 20
 console.log('20 es mayor que 15:', number3 > 15)
@@ -89,6 +92,4 @@ console.log('10 es menor que 5:', minor > mayor)
 let foodOne = 'Pizza'
 let foodTwo = 'Hamburguesa'
 console.log('Pizza es igual a Hamburguesa:', food1 == food2)
-
-// And
 
