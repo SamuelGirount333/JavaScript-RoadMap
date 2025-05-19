@@ -46,3 +46,7 @@ console.log('La contraseña es correcta:', password == 'pepito1234')
 let documentID = '12345678'
 let passwordClient = 'abcdefgh'
 console.log(`la longitud de ${documentID} es igual a la de ${password}`)
+
+let myDream = 'No se como lo voy a hacer pero lo lograre, sere tan grande como en algun momento lo sone cuando lo perdi todo'
+console.log('la longitud de mis suenos es:',mydream.length)
+console.log(myDream.toUpperCase)

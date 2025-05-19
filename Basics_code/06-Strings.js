@@ -12,8 +12,8 @@ console.log(greating[0])
 console.log(greating[11])
 
 // Metodos comunes 
-console.log(greating.toLocaleUpperCase())
-console.log(greating.toLocaleLowerCase())
+console.log(greating.toUpperCase())
+console.log(greating.toLowerCase())
 console.log(greating.indexOf('Samuel')) // Busqueda por indice
 console.log(greating.indexOf('!'))
 console.log(greating.includes('Samuel')) // Busqueda por valor
